@@ -15,15 +15,13 @@ public class ToHex {
         
         int number1a=0;
         int number1b=0;
-        int number1c=0;
         
         int number2a=0;
         int number2b=0;
-        int number2c=0;
         
         int number3a=0;
         int number3b=0;
-        int number3c=0;
+        
         
         if (number1 >= 0 && number1 <= 255) { //if number1 is greater/equal than 0 and less than/equal 255
             
@@ -63,22 +61,22 @@ public class ToHex {
                     case 15: number1a= 'F'; break;
                 }
                 switch (number1 / 16) {
-                    case 0: number1a= 0; break;
-                    case 1: number1a= 1; break; //if 16 goes into the number once then number1a is 1
-                    case 2: number1a= 2; break;
-                    case 3: number1a= 3; break;
-                    case 4: number1a= 4; break;
-                    case 5: number1a= 5; break;
-                    case 6: number1a= 6; break;
-                    case 7: number1a= 7; break;
-                    case 8: number1a= 8; break;
-                    case 9: number1a= 9; break;
-                    case 10: number1a= 'A'; break;
-                    case 11: number1a= 'B'; break;
-                    case 12: number1a= 'C'; break;
-                    case 13: number1a= 'D'; break;
-                    case 14: number1a= 'E'; break;
-                    case 15: number1a= 'F'; break;
+                    case 0: number1b= 0; break;
+                    case 1: number1b= 1; break; //if 16 goes into the number once then number1a is 1
+                    case 2: number1b= 2; break;
+                    case 3: number1b= 3; break;
+                    case 4: number1b= 4; break;
+                    case 5: number1b= 5; break;
+                    case 6: number1b= 6; break;
+                    case 7: number1b= 7; break;
+                    case 8: number1b= 8; break;
+                    case 9: number1b= 9; break;
+                    case 10: number1b= 'A'; break;
+                    case 11: number1b= 'B'; break;
+                    case 12: number1b= 'C'; break;
+                    case 13: number1b= 'D'; break;
+                    case 14: number1b= 'E'; break;
+                    case 15: number1b= 'F'; break;
                 }
             }
         
@@ -120,22 +118,22 @@ public class ToHex {
                     case 15: number2a= 'F'; break;
                 }
                 switch (number2 / 16) {
-                    case 0: number2a= 0; break; 
-                    case 1: number2a= 1; break; //if 16 goes into the number once then number1a is 1
-                    case 2: number2a= 2; break;
-                    case 3: number2a= 3; break;
-                    case 4: number2a= 4; break;
-                    case 5: number2a= 5; break;
-                    case 6: number2a= 6; break;
-                    case 7: number2a= 7; break;
-                    case 8: number2a= 8; break;
-                    case 9: number2a= 9; break;
-                    case 10: number2a= 'A'; break;
-                    case 11: number2a= 'B'; break;
-                    case 12: number2a= 'C'; break;
-                    case 13: number2a= 'D'; break;
-                    case 14: number2a= 'E'; break;
-                    case 15: number2a= 'F'; break;
+                    case 0: number2b= 0; break; 
+                    case 1: number2b= 1; break; //if 16 goes into the number once then number1a is 1
+                    case 2: number2b= 2; break;
+                    case 3: number2b= 3; break;
+                    case 4: number2b= 4; break;
+                    case 5: number2b= 5; break;
+                    case 6: number2b= 6; break;
+                    case 7: number2b= 7; break;
+                    case 8: number2b= 8; break;
+                    case 9: number2b= 9; break;
+                    case 10: number2b= 'A'; break;
+                    case 11: number2b= 'B'; break;
+                    case 12: number2b= 'C'; break;
+                    case 13: number2b= 'D'; break;
+                    case 14: number2b= 'E'; break;
+                    case 15: number2b= 'F'; break;
                 }
             }    
             
@@ -174,22 +172,22 @@ public class ToHex {
                     case 15: number3a= 'F'; break;
                 }
                 switch (number3 / 16) {
-                    case 0: number3a= 0; break;
-                    case 1: number3a= 1; break; //if 16 goes into the number once then number1a is 1
-                    case 2: number3a= 2; break;
-                    case 3: number3a= 3; break;
-                    case 4: number3a= 4; break;
-                    case 5: number3a= 5; break;
-                    case 6: number3a= 6; break;
-                    case 7: number3a= 7; break;
-                    case 8: number3a= 8; break;
-                    case 9: number3a= 9; break;
-                    case 10: number3a= 'A'; break;
-                    case 11: number3a= 'B'; break;
-                    case 12: number3a= 'C'; break;
-                    case 13: number3a= 'D'; break;
-                    case 14: number3a= 'E'; break;
-                    case 15: number3a= 'F'; break;
+                    case 0: number3b= 0; break;
+                    case 1: number3b= 1; break; //if 16 goes into the number once then number1a is 1
+                    case 2: number3b= 2; break;
+                    case 3: number3b= 3; break;
+                    case 4: number3b= 4; break;
+                    case 5: number3b= 5; break;
+                    case 6: number3b= 6; break;
+                    case 7: number3b= 7; break;
+                    case 8: number3b= 8; break;
+                    case 9: number3b= 9; break;
+                    case 10: number3b= 'A'; break;
+                    case 11: number3b= 'B'; break;
+                    case 12: number3b= 'C'; break;
+                    case 13: number3b= 'D'; break;
+                    case 14: number3b= 'E'; break;
+                    case 15: number3b= 'F'; break;
                 }
             }
     
@@ -199,7 +197,7 @@ public class ToHex {
         }
     
         System.out.println("The decimal numbers R: " + number1 + " G: " + number2+ " B: " + number3 +
-        " is represented in hexadecimal as: "+ number1a +number2a+ number3a);
+        " is represented in hexadecimal as: "+ number1a+ number1b +number2a+ number2b+ number3a+ number3b);
         
         
         
