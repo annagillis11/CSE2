@@ -52,18 +52,16 @@
         
         public static int[] randomInput(){
             int [] myList= new int[10];
-            for (int i= 0; i< mylist.length; i++) {
+            for (int i= 0; i< myList.length; i++) {
                 myList[i]= (int)Math.random()*10;
             }
             return myList;
         }
         
         public static int [] delete(int[] list, int pos){
-            list= num;
-            pos= index;
-            int c;
-            if (pos<= list.length){
-                for (c= pos- 1; c< list.length- 1;  c++){
+            int index = pos;
+            if (pos < list.length){
+                for (int c= pos; c< list.length- 1;  c++){
                     list [c]= list[c+1];
                 }
                 
@@ -71,17 +69,15 @@
             else {
                 System.out.println("Number bigger than list length");
             }
-            
-            
+            return list;
         }
         
-        public static int [] remove( int list, int target){
-            list= num;
-            int key= target;
-            for (int i=0; i<list.length; i++){
+        public static int [] remove( int [] list, int target){
+            int key=target;
+            for (int i=0; i< list.length; i++){
                 if (key==list[i])
-                    return i;
+                    list[i]=list[i-1];
             }
-            
+            return list; 
         }
 }
