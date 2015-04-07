@@ -31,7 +31,6 @@ public class HW8 {
     }
     
     public static String getInput(Scanner scan, String string){
-        Scanner input= new Scanner(System.in); //possible add scanner //adds new scanner
         string= input.nextString (); //accepts string as input
         if (string != 'c' && string != 'C'){ //if string does not equal c and does not equal C
             System.out.println("Yea right LOSER!"); //print yea right
