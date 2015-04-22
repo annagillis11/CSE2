@@ -5,7 +5,7 @@
     
     public class RemoveElements{
   
-        public static void main(String [] arg){
+        public static void main(String [] args){
     	    Scanner scan=new Scanner(System.in);
             int num[]=new int[10];
             int newArray1[];
