@@ -42,7 +42,7 @@ public class Matrices {
         } //format row-major representation 
         
         else {
-            for (int column=0; column< matrix.length; column++){
+            for (int column=0; column< matrix[width].length; column++){
                 for(int row=0; row < matrix[column].length; row++){
                      matrix[column][row]= number++;
                 }

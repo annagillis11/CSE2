@@ -35,17 +35,29 @@ public class SmileGenerator{
             
         System.out.println();
         
-        int random2= (int) Math.floor(Math.random()*101); 
-        int num=0;
-        int k= 1; 
+        //int random2= (int) Math.floor(Math.random()*101); 
+        //int num=0;
+        //int g= 1; 
         
-        while (k<random){
-            System.out.print(smile);
-            num++; 
-            if (num > k){
-                System.out.println();
-                k++;
-            }
+       // while (g<random){
+        //    System.out.print(smile);
+         //   num++; 
+        //    if (num > k){
+       //         System.out.println();
+       //         g++;
+       //     }
+       // }
+        
+        int smiles = 1; // first row has one smile
+        int rows=6; 
+        
+        for(int p = 0; p < rows; p++){
+
+        for(int j= smiles; j>0; j--){ //this one prints smiles
+           System.out.print(":)");
+        }
+        System.out.println(); //go to new row
+        smiles += 1; // increase amount of smiles
         }
     
             
